@@ -1,0 +1,48 @@
+/* src/pages/TransactionsPage.css */
+
+.transactions-container {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    min-height: 50vh;
+}
+
+.transactions-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.transaction-item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ffe082;
+}
+
+.tx-type {
+    font-weight: bold;
+    color: #4e342e;
+}
+
+.tx-meta {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+/* Style for the back button */
+.back-button {
+    margin-top: 1rem;
+    background-color: #757575; /* grey or any accent color you want */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+.back-button:hover {
+    background-color: #616161; /* slightly darker grey */
+}

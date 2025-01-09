@@ -1,0 +1,28 @@
+/* src/index.css or src/styles/App.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}

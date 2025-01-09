@@ -1,0 +1,44 @@
+/* src/index.css */
+
+/* 1. Global background: bright pastel yellow */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff59b; /* pastel yellow */
+  color: #333;
+}
+
+/* 2. Simple resets / utility */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 3. Headings styling for a vibrant look */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif; /* or a fun Google Font */
+  color: #4e342e; /* a darker brown that pairs with yellow */
+}
+
+/* 4. Buttons: consistent styling across pages (unless overridden in page CSS) */
+button {
+  background-color: #ffa726; /* vibrant orange accent */
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+  font-family: inherit;
+}
+
+button:hover {
+  background-color: #ff9800; /* slightly deeper orange */
+}
+
+/* 5. Container utility: for pages that want a centered container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}

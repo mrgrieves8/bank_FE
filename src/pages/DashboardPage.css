@@ -1,0 +1,83 @@
+/* src/pages/DashboardPage.css */
+
+.dashboard-container {
+    margin: 2rem auto;
+    max-width: 800px;
+    background-color: #fff; /* white card on yellow background */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    position: relative;
+}
+
+/* The header at the top */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+}
+
+.logout-button {
+    background-color: #ef5350; /* red accent for logout */
+}
+
+.logout-button:hover {
+    background-color: #e53935;
+}
+
+/* user-info section */
+.user-info-section {
+    background-color: #fffde7; /* a lighter yellow or near-white */
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ffe082;
+}
+
+/* quick-actions section */
+.quick-actions-section {
+    background-color: #fffde7;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ffe082;
+}
+
+.quick-actions-section button {
+    margin-right: 0.5rem;
+}
+
+/* recent-transactions section */
+.recent-transactions-section {
+    background-color: #fffde7;
+    padding: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ffe082;
+}
+
+.transactions-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.transaction-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ffe082;
+}
+
+.tx-type {
+    font-weight: bold;
+    margin-right: 0.5rem;
+    color: #4e342e;
+}
+
+.tx-meta {
+    font-size: 0.9rem;
+    color: #666;
+}

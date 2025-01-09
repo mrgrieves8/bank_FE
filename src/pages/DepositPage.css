@@ -1,0 +1,35 @@
+/* src/pages/DepositPage.css */
+
+.deposit-page-container {
+    margin: 2rem auto;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+}
+
+.deposit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.deposit-form label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.deposit-button {
+    align-self: flex-start;
+}
+
+.deposit-message {
+    color: green;
+    margin-top: 1rem;
+}
+
+.back-button {
+    margin-top: 1rem;
+    background-color: #757575; /* grey for secondary */
+}
